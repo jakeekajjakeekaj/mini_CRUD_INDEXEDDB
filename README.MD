@@ -1,0 +1,1 @@
+Mini proyecto para la realización de un CRUD usando la API de IndexedDB, recuerda que la base se encuentra en las herramientas de desarrollador de chrome en la sección de application

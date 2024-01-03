@@ -1,0 +1,134 @@
+body {
+    background-color: #ddd;
+    color: #222;
+    font-family: sans-serif;
+}
+
+body, h2, div, input, button {
+    padding: 0;
+    margin: 0;
+}
+
+
+.add-nombres {
+    /* text-align: center; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 30px;
+}
+
+#nombreInput {
+    padding: 6px 8px;
+    border: none;
+    border-radius: 5px;
+    /* margin-left: 20px; */
+}
+
+#add {
+    /* border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    cursor: pointer; */
+    /* margin-right: 10px; */
+
+    /* padding: 4px 8px; */
+    margin-left: 10px;
+    background-color: #bbb;
+}
+
+.nombres {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1.5px solid #888;
+}
+
+.nombre {
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    /* border-radius: 7px; */
+    border-bottom: 1.5px solid #888;
+    padding: 15px 0;
+}
+
+/* .nombre h2 { */
+    /* border-radius: 7px; */
+    /* margin: 17px; */
+    /* padding: 15px 25px; */
+    /* border: 1.5px solid #888; */
+    /* display: inline-block; */
+/* } */
+
+/* .options { */
+    /* display: flex; */
+/* } */
+
+.options {
+    display: flex;
+    justify-self: end;
+    align-items: end;
+}
+
+.options button {
+    /* padding: 4px 8px; */
+    /* margin: 0px 1px; */
+}
+
+.imposible {
+    /* border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-right: 10px; */
+
+    /* padding: 4px 8px; */
+    /* background-color: #0d0; */
+    background-color: #ccc;
+    color: #777;
+    /* outline: none; */
+    cursor: default;
+}
+/* #imposible:hover {
+    background-color: #0b0;
+} */
+
+.delete {
+    /* border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-right: 10px; */
+
+    /* padding: 4px 8px; */
+    background-color: #f00;
+
+}
+.delete:hover {
+    background-color: #c00;
+}
+
+.posible {
+    /* border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-right: 10px; */
+
+    background-color: #0d0;
+}
+.posible:hover {
+    background-color: #0b0;
+}
