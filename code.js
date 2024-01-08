@@ -32,7 +32,8 @@ document.getElementById('add').addEventListener("click", ()=> {
     if(nombre.length > 0) {
         if(document.querySelector(".posible") != undefined) {
             if(confirm("Hay elementos sin guardar, ¿Seguro que quieres continuar sin guardarlos?")) {
-                addObjeto({nombre:nombre});
+                addObjeto({nombre:nombre.value});
+                nombre.value = "";  //De esta manera si se da doble click, no va a funcionar
                 leerObjetos();
             }
         } else {
